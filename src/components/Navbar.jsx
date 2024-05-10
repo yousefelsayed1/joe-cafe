@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <header
       className={`mx-auto md:flex justify-between py-2 x-padding fixed top-0 w-full z-50
-      ${navbar ? "bg-primary" : "bg-transparent"}`}
+      ${navbar ? "bg-primary" : "backdrop-blur"}`}
     >
       <div className="flex justify-between items-center py-2 md:py-3">
         <Link to="home">
