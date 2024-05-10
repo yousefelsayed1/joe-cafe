@@ -53,7 +53,12 @@ export default function Gallery() {
         <Slider {...settings}>
           {gallery.map((el) => (
             <div key={el.id}>
-              <img src={el.img} className="w-full" alt={el.title} />
+              <img
+                src={el.img}
+                className="w-full"
+                alt={el.title}
+                loading="lazy"
+              />
             </div>
           ))}
         </Slider>

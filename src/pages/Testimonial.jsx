@@ -43,6 +43,7 @@ export default function Testimonial() {
                   src={el.img}
                   className="w-20 border-dashed rounded-full border-tertiary mr-5"
                   alt=""
+                  loading="lazy"
                 />
                 <div className="content">
                   <h2 className="font-primary text-secondary mb-2">

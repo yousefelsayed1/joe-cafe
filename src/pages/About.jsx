@@ -10,6 +10,7 @@ export default function About() {
             className="w-4/5 mx-auto img-border "
             src={aboutImg}
             alt="About-image"
+            loading="lazy"
           ></img>
           <div className="text-secondary">
             <h2>about us</h2>

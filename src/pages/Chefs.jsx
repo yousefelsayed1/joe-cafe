@@ -53,7 +53,12 @@ export default function Chefs() {
                     <i class="fa-brands fa-twitter text-secondary text-2xl m-2 icon cursor-pointer"></i>
                   </a>
                 </div>
-                <img src={el.img} alt={el.name} className="w-full mb-3" />
+                <img
+                  src={el.img}
+                  alt={el.name}
+                  className="w-full mb-3"
+                  loading="lazy"
+                />
               </div>
               <div className="content text-center">
                 <h1 className="text-secondary mb-1 font-primary">{el.name}</h1>

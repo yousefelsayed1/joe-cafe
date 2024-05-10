@@ -36,6 +36,7 @@ export default function Menu() {
                     src={el.img}
                     alt={el.id}
                     className="w-20 border-dashed rounded-full border-tertiary mr-5"
+                    loading="lazy"
                   />
                 </div>
                 <div className="content grow">

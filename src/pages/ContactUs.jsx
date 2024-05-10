@@ -31,11 +31,13 @@ export default function ContactUs() {
             />
             <input
               type="date"
-              className="p-2 bg-[#333] rounded-lg text-secondary"
+              placeholder="date"
+              className="p-2 bg-[#333] rounded-lg text-secondary w-full"
             />
             <input
               type="time"
-              className="p-2 bg-[#333] rounded-lg text-secondary"
+              placeholder="time"
+              className="p-2 bg-[#333] rounded-lg text-secondary w-full"
             />
             <input
               type="number"

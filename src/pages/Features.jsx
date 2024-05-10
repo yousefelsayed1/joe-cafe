@@ -20,8 +20,18 @@ export default function Features() {
             >
               <div className="main-border p-3">
                 <div className="flex justify-between">
-                  <img src={el.img} alt="icon" className="w-[50px] mb-5" />
-                  <img src={beans} alt="benasImg" className="w-[100px] " />
+                  <img
+                    src={el.img}
+                    alt="icon"
+                    className="w-[50px] mb-5"
+                    loading="lazy"
+                  />
+                  <img
+                    src={beans}
+                    alt="benasImg"
+                    className="w-[100px]"
+                    loading="lazy"
+                  />
                 </div>
                 <h2 className="text-lg font-primary text-secondary mb-2">
                   {el.title}
