@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Nunito:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  overflow-x: hidden;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Nunito" sans-serif;
+}
+
+*::selection {
+  background-color: #be9c79;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #be9c79;
+}
+
+/*removing arrows in number input
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.main-shadow {
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-border {
+  border: 3px solid rgb(161 161 170);
+  border-radius: 10px;
+}
+.icon-border {
+  border: 2px solid #be9c79;
+  border-radius: 100%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 16px;
+  background-color: #be9c79;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  width: fit-content;
+}
+.subscribe-btn {
+  text-align: center;
+  display: inline-block;
+  margin: 10px 0;
+  background-color: #be9c79;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 15px;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #333;
+}
+
+/* image border */
+.img-border {
+  border-bottom: 10px solid #be9c79;
+  border-left: 10px solid #be9c79;
+}
+
+.img-border-2 {
+  border-bottom: 10px solid #be9c79;
+  border-right: 10px solid #be9c79;
+}
+
+/* hover */
+.hover-primary {
+  transition: 0.6s ease-in-out;
+}
+.hover-primary:hover {
+  transform: translateY(-20px);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.hover-secondary {
+  transition: 0.6s ease-in-out;
+}
+.hover-secondary:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+/*background animation for icons in records Component */
+.bg-record {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #be9c79;
+  z-index: 2;
+  transform: translate(-20px, -20px);
+  transition: transform 0.3s linear;
+}
+
+.record:hover .bg-record {
+  transform: translate(0px, 0px);
+}
+
+/* applying tailwind Classes */
+.x-padding {
+  @apply mx-auto xl:px-24 px-5;
+}
+.bg-gradient {
+  @apply bg-gradient-to-b from-transparent via-sky-800 to-transparent;
+}
+.text-gradient {
+  @apply bg-clip-text bg-gradient text-transparent;
+}
+section {
+  @apply pt-10 xl:pt-10 2xl:pt-16 pb-16 xl:pb-16 2xl:pb-20;
+}
+
+.home-heading {
+  @apply md:text-6xl text-4xl;
+}
+
+.section-heading {
+  @apply md:text-4xl  text-2xl;
+}
