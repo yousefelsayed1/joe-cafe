@@ -1,5 +1,6 @@
-# Still working on it 
+ # Joe cafe   
 
-"Explore our café's website—a delightful fusion of React.js and Tailwind CSS. Whether you're on a laptop, tablet, or phone, our responsive design ensures a smooth experience. Sip your way through our digital menu and discover your favorite brews!" ☕🌟
+Crafted with Tailwind CSS, the site boasts a modern, clean design that adapts flawlessly to any device. Elevate your browsing with Framer Motion’s smooth, natural animations, enhancing user engagement and providing a dynamic user experience.
 
+This project was an opportunity for me to learn and apply new technologies, enhancing both the website and my development skills.
 
