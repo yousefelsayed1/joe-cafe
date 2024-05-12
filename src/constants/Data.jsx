@@ -16,7 +16,10 @@ import beans1 from "../assets/images/coffee-beans.svg";
 import beans2 from "../assets/images/coffee-beans-2.svg";
 import beans3 from "../assets/images/coffee-beans-3.svg";
 
-import record1 from "../assets/images/coffee-shop.svg";
+import record1 from "../assets/images/coffee-shop.png";
+import record2 from "../assets/images/coffee.png";
+import record3 from "../assets/images/chef.png";
+import record4 from "../assets/images/rating.png";
 
 import gallery1 from "../assets/images/gallery-1.jpg";
 import gallery2 from "../assets/images/gallery-2.jpg";
@@ -182,7 +185,7 @@ export const choose = [
       "there are many variantes of passengers of lorem available bout the majority have suffered alteration in some injected",
   },
   {
-    id: 1,
+    id: 3,
     title: "peans with leaves",
     img: beans3,
     heading: "healthy coffee",
@@ -200,19 +203,19 @@ export const records = [
   },
   {
     id: 2,
-    img: record1,
+    img: record2,
     record: 250,
     title: "+ happy customers",
   },
   {
     id: 3,
-    img: record1,
+    img: record3,
     record: 120,
     title: "+ professional chefs",
   },
   {
     id: 4,
-    img: record1,
+    img: record4,
     record: 50,
     title: "+ years of experience",
   },
