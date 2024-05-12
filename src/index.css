@@ -52,18 +52,18 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-/* input[type="date"]:before {
+input::placeholder {
+  color: #fff;
+}
+textarea::placeholder {
+  color: #fff;
+}
+
+input[type="date"]:before {
   content: attr(placeholder);
 }
 input[type="time"]:before {
   content: attr(placeholder);
-} */
-
-input[type="date"].full:before {
-  content: "" !important;
-}
-input[type="time"].full:before {
-  content: "" !important;
 }
 
 .main-shadow {
