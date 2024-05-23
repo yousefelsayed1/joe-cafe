@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <div className="bg-blackOut">
       <section className="container x-padding">
-        <div className="grid md:grid-cols-4 gap-5">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 justify-between gap-5">
           <div className="text-secondary px-1 text-xs">
             <img src={logo} alt="cafe logo" className="w-40 pb-3" />
-            <p className=" mb-3 ">
+            <p className=" mb-3 max-w-48 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
               dicta rem quae reprehenderit voluptatibus quo consectetur labore
               sit? Atque, quaerat.
@@ -29,7 +29,7 @@ export default function Footer() {
 
           <div className="text-secondary px-3 ">
             <h2 className="font-primary mb-4">Quick links</h2>
-            <div className="flex flex-col">
+            <div className="grid lg:grid-cols-1 grid-cols-2">
               <Link to="about" className="mb-3 cursor-pointer">
                 about us
               </Link>
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-secondary ">
+          <div className="text-secondary max-w-80">
             <h2 className="font-primary mb-4">work hours</h2>
             <div className="bg-[#222] p-3">
               <div className="border-dashed border-tertiary p-3 flex flex-col gap-3 text-xs ">

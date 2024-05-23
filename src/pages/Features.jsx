@@ -12,7 +12,7 @@ export default function Features() {
             our best features
           </h1>
         </div>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-7 justify-center">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:gap-7 gap-3 justify-center">
           {features.map((el, i) => (
             <div
               key={el.id}

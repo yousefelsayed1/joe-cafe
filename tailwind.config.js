@@ -2,6 +2,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        sm: "500px",
+        // => @media (min-width: 576px) { ... }
+      },
       fontFamily: {
         primary: "Merienda, cursiverif",
       },
